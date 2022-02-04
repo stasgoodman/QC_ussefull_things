@@ -33,12 +33,15 @@ def get_rand_all(r):
 
 
 gen_rand_str(31)
-
+gen_rand_low_str(15)
+gen_rand_upp_str(20)
 gen_rand_num(31)
 get_rand_all(31)
 
 
 ## Response e.g.:
-#> 31 R Letters: >>> FffDnoAhkSTmbduiOtnFdiRNxUwFZTL
-#> 18 R Digits : >>> 447324461738687389
-#> 20 R All    : >>> ZG?R"WmRxf_aQMz]8e\g
+#> 31 Random leTteRs: >>> FTBZvSqNyBPYkmLBXdbbIIrJYpNkxdN
+#> 15 Random letters: >>> quqyaduyxuvqvlp
+#> 20 Random LETTERS: >>> JDQTQJSVRSRTBZCSFBJI
+#> 31 Random digits : >>> 6868906818440702331813170925944
+#> 31 Random all    : >>> G\gPN?H:\S\->R^]7L@MCCv2H.d)wAu
