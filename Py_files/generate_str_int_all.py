@@ -23,3 +23,8 @@ def get_rand_all(r):
 gen_rand_str(31)
 gen_rand_num(18)
 get_rand_all(20)
+
+## Response:
+#> 31 R Letters: >>> FffDnoAhkSTmbduiOtnFdiRNxUwFZTL
+#> 18 R Digits : >>> 447324461738687389
+#> 20 R All    : >>> ZG?R"WmRxf_aQMz]8e\g
