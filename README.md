@@ -1,1 +1,1 @@
-# QC_ussefull_things
+Python files wich may be ussefull for QC engineer :P
