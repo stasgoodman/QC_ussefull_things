@@ -5,7 +5,19 @@ import string
 def gen_rand_str(length):
     letters = string.ascii_letters
     rand_str = ''.join(random.choice(letters) for _ in range(length))
+    print(length, "Random leTteRs: >>>", rand_str)
+
+
+def gen_rand_low_str(length):
+    letters = string.ascii_lowercase
+    rand_str = ''.join(random.choice(letters) for _ in range(length))
     print(length, "Random letters: >>>", rand_str)
+
+
+def gen_rand_upp_str(length):
+    letters = string.ascii_uppercase
+    rand_str = ''.join(random.choice(letters) for _ in range(length))
+    print(length, "Random LETTERS: >>>", rand_str)
 
 
 def gen_rand_num(r):
@@ -21,8 +33,10 @@ def get_rand_all(r):
 
 
 gen_rand_str(31)
-gen_rand_num(18)
-get_rand_all(20)
+
+gen_rand_num(31)
+get_rand_all(31)
+
 
 ## Response e.g.:
 #> 31 R Letters: >>> FffDnoAhkSTmbduiOtnFdiRNxUwFZTL
