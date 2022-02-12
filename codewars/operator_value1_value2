@@ -10,3 +10,12 @@ def basic_op(operator, value1, value2):
         return value1/value2
     if operator=='*':
         return value1*value2
+
+def basic_op(o, a, b):
+    return {'+':a+b,'-':a-b,'*':a*b,'/':a/b}.get(o)
+    
+def basic_op(operator, value1, value2):
+    return eval(f'{value1}{operator}{value2}')
+    
+def basic_op(op, v1, v2):
+    return v1+v2 if op == "+" else v1-v2 if op == "-" else  v1*v2 if op == "*" else  v1/v2
